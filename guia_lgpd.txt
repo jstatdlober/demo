@@ -1,0 +1,101 @@
+
+ 8
+ iNTRODUÇÃO
+ A governança no compartilhamento de dados na administração pública federal, autárquica    e 
+fundacional segue as diretrizes estabelecidas no Decreto nº 10.046, de 9 de outubro de 2019, e 
+precisa ser compreendida à luz das restrições legais, dos requisitos de segurança da informação e 
+comunicações e do disposto pela Lei nº 13.709, de 14 de agosto de 2018 - Lei Geral de Proteção de 
+Dados Pessoais (LGPD).
+ Nesse contexto, este documento tem como objetivo fornecer orientações de boas práticas 
+aos órgãos e entidades da Administração Pública Federal direta, autárquica e fundacional para as 
+operações de tratamento de dados pessoais, conforme previsto no art. 50 da LGPD.
+ Inicialmente, a adequação dos órgãos e entidades em relação à LGPD envolve uma transformação 
+cultural que deve alcançar os níveis estratégico, tático e operacional da instituição. Essa transformação 
+envolve: considerar a privacidade dos dados pessoais do cidadão desde a fase de concepção do 
+serviço ou produto até sua execução (Privacidade by Design); e promover ações de conscientização 
+de todo corpo funcional no sentido de incorporar o respeito à privacidade dos dados pessoais nas 
+atividades institucionais cotidianas.
+ Cumpre destacar que o princípio da finalidade do tratamento de dados estabelecido na LGPD 
+exige que os propósitos do tratamento sejam legítimos, específicos, explícitos e informados ao 
+titular. O tratamento posterior somente será possível se for compatível com esses propósitos e 
+finalidades (art. 6º, I). No caso do setor público, a finalidade relaciona-se com a execução de políticas 
+públicas, devidamente estabelecida em lei, e com o cumprimento de obrigação legal ou regulatória 
+pelo controlador. E, mesmo sendo eventualmente dispensado o consentimento do titular para o 
+tratamento dos dados pelo poder público, nas hipóteses legalmente definidas, tal dispensa não 
+exime a administração pública de atender às demais obrigações da LGPD, em especial aos princípios 
+gerais e à garantia dos direitos dos titulares.
+ Ainda, convém ressaltar que grande parte dos dados pessoais a que se refere a LGPD está 
+contida em documentos arquivísticos, em qualquer suporte. Os documentos arquivísticos digitais 
+se apresentam em uma diversidade crescente de formatos, tais como texto não estruturado (.doc, 
+.pdf, .odf, entre outros formatos), planilhas, páginas web, fotografias, imagem em movimento, registro 
+sonoro, bases de dados, multimidia e mídias sociais. Frequentemente, o registro das atividades de 
+um órgão ou entidade é realizado por meio de um sistema informatizado, mantido em uma base de 
+dados, que se constitui, ou contém documentos arquivísticos digitais. Assim, para além da legislação 
+de proteção de dados pessoais, é preciso também observar a legislação de arquivos, que deve 
+ser considerada conjuntamente na realização das operações com os dados pessoais contidos em 
+documentos arquivísticos, ainda que estes sejam mantidos em sistemas informatizados e bases 
+de dados. Do mesmo modo, vale lembrar, a Lei de Acesso à Informação - LAI (Lei nº 12.527, de 18 
+de novembro de 2018) e o seu regulamento (Decreto nº 7.724, de 16 de maio de 2012) igualmente 
+apresentam regras específicas para o acesso a documentos que, embora apresentem dados 
+pessoais, possuem valor permanente e foram recolhidos a instituições arquivísticas públicas. A LGPD 
+e a LAI também devem, portanto, ser interpretadas sistematicamente.
+ As orientações relativas ao tratamento dos dados pessoais pela Administração Pública Federal 
+(APF) constantes deste documento foram estruturadas em quatro capítulos:
+ • O Capítulo 1 contempla a base legal de tratamento, os  exercícios do direito do titular de 
+dados e a base legal de tratamento;
+GUIA DE BOAS PRÁTICAS - LEI GERAL DE PROTEÇÃO DE DADOS (LGPD) 9
+ • O Capítulo 2 indica como realizar o tratamento de dados pessoais e elaborar o Relatório de 
+Impacto à Proteção de Dados Pessoais;
+ • O Capítulo 3 descreve o ciclo de vida de tratamento dos dados pessoais; e
+ • O Capítulo 4 apresenta padrões e frameworks de segurança da informação.
+ Este documento, que será atualizado, aperfeiçoado, ampliado permanentemente, tem por 
+objeto o contato inicial e a familiarização com o novo universo da proteção e tratamento de 
+dados pessoais. Neste momento, não há aqui o propósito de se apresentar uma metodologia 
+de implementação da LGPD ou abranger e esgotar todos os aspectos de tal Lei, uma vez que 
+algumas diretrizes de proteção de dados da LGPD necessitam de detalhamento, em regulamentos 
+e procedimentos próprios, a serem editados pela Autoridade Nacional de Proteção de Dados.
+GUIA DE BOAS PRÁTICAS - LEI GERAL DE PROTEÇÃO DE DADOS (LGPD)
+ 10
+ 1 DIREITOS FUNDAMENTAIS 
+DO TITULAR DOS DADOS
+ 1.1 BASE LEGAL PARA TRATAMENTO DOS DADOS PESSOAIS
+ A Lei Geral de Proteção de Dados Pessoais (LGPD – Lei n° 13.709, de 14 de agosto de 2018) 
+foi promulgada para proteger os direitos fundamentais de liberdade e de privacidade e a livre 
+formação da personalidade de cada indivíduo. Essa Lei versa sobre o tratamento de dados pessoais, 
+dispostos em meio físico ou digital, feito por pessoa física ou jurídica de direito público ou privado e 
+engloba um amplo conjunto de operações efetuadas em meios manuais ou digitais.
+ No âmbito da LGPD, o tratamento dos dados pessoais pode ser realizado por dois “agentes de 
+tratamento”, o Controlador e o Operador:
+ • O Controlador é definido pela Lei como a pessoa natural ou jurídica, de direito público ou 
+privado, a quem competem as decisões referentes ao tratamento de dados pessoais, tais como as 
+finalidades e os meios do tratamento (art. 5º, VI). No âmbito da Administração Pública, o Controlador 
+será a pessoa jurídica do órgão ou entidade pública sujeita à Lei, representada pela autoridade 
+imbuída de adotar as decisões acerca do tratamento de tais dados.
+ • O Operador é a pessoa natural ou jurídica, de direito público ou privado, que realiza o 
+tratamento de dados pessoais em nome do controlador (art. 5º, VII), aí incluídos agentes públicos no 
+sentido amplo que exerçam tal função, bem como pessoas jurídicas diversas daquela representada  
+pelo Controlador, que exerçam atividade de tratamento no âmbito de contrato ou instrumento 
+congênere.
+ Além dos “agentes de tratamento”, outra figura essencial para o adequado cumprimento da 
+LGPD é o “Encarregado”, definido pelo art. 5º, VIII, como a pessoa indicada pelo controlador e 
+operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a 
+Autoridade Nacional de Proteção de Dados (ANPD).
+ Outro conceito fundamental é o de “tratamento de dados”, que abrange qualquer atividade 
+que utilize um dado pessoal na execução da sua operação, como, por exemplo: coleta, produção, 
+recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, 
+arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, 
+comunicação, transferência, difusão ou extração. 
+Vistos os conceitos essenciais de Controlador, Operador, Encarregado e “tratamento de 
+dados”, é importante estar atento às particularidades de cada caso concreto, a fim de serem 
+evitadas confusões que ponham em risco a correta delimitação de responsabilidades entre os 
+agentes envolvidos no tratamento de dados. Convém, portanto, destacar que a identificação dos 
+Controladores depende necessariamente, em cada situação, da existência da capacidade de decidir 
+sobre os meios e a finalidade do tratamento de dados. Assim, serão considerados Controladores, por 
+exemplo, os órgãos públicos que contratarem empresa privada para gerir seu registro de visitantes, 
+na medida em que tal empresa agirá sob as ordens do órgão contratante. Nessa ilustração, o 
+órgão contratante (Controlador) não apenas estabelecerá a finalidade do tratamento, mas também 
+exigirá da empresa contratada (Operador) a adoção dos meios técnicos necessários para garantir 
+a observância dos princípios que regem o tratamento dos dados pessoais, especificados no art. 6º 
+da LGPD. Para distinguir entre Controlador e Operador, portanto, é fundamental reconhecer qual 
+ente possui autonomia decisória quanto a fins e meios de tratamento (Controlador), e qual possui 
+escopo eminentemente executório (Operador), submetido aos desígnios de outrem.
